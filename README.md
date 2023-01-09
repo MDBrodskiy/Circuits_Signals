@@ -19,6 +19,9 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
+* [**Notes**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/)
+    * [**Introduction to Circuits & Signals**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section1.pdf)
+
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
