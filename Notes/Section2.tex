@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Circuit Laws}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item Voltmeter — Measures voltage without drawing current
+
+  \item Ammeter — Measures current without dropping voltage
+
+  \item Resistance is a function of size, shape, and media properties:
+
+    $$\boxed{R=\frac{V}{I}=\frac{l}{\sigma A}=\rho\frac{l}{A}}$$
+
+    \begin{itemize}
+
+      \item $\sigma$ is the conductivity, $\rho$ is the resistivity, $l$ is the length of the wire, and $A$ is the cross-sectional area
+
+    \end{itemize}
+
+  \item Siemens (S), the unit for conductance, is the inverse of resistance, where: $\boxed{S=\dfrac{1}{\Omega}}$
+
+    \begin{figure}[h!]
+      \centering
+      \include{Figures/CircuitTypes}
+      \caption{Different Circuit Types}
+      \label{fig:1}
+    \end{figure}
+
+    \begin{itemize}
+
+      \item (a) shows a short circuit
+
+      \item (b) shows an open circuit
+
+      \item (c) shows an open switch
+
+    \end{itemize}
+
+  \item Kirchoff's Laws
+
+    \begin{itemize}
+
+      \item A circuit is said to be solved when voltage and current across each circuit element has been determined
+
+      \item Consist of Kirchoff's current law (KCL) and Kirchoff's voltage law (KVL)
+
+      \item Node — A point where two or more circuit elements meet
+
+      \item Sum of currents entering a node is zero (also holds for closed boundary)
+
+        $$\boxed{\sum_{n=1}^N i_n=0\,\,\,\,\,\,\,\,\text{(KCL)}}$$
+
+      \item For any node, a unique voltage can be assigned
+
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}
+
