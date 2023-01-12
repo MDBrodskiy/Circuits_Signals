@@ -22,6 +22,8 @@
 * [**Notes**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/)
     * [**Introduction to Circuits & Signals**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section1.pdf)
     * [**Circuit Laws**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section2.pdf)
+* [**Lab Reports**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/)
+    * [**Lab One**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab1.pdf)
 
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
