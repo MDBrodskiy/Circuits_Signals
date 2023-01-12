@@ -1,0 +1,103 @@
+\documentclass[
+	letterpaper, % Paper size, specify a4paper (A4) or letterpaper (US letter)
+	10pt, % Default font size, specify 10pt, 11pt or 12pt
+]{CSUniSchoolLabReport}
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Breadboards \\ Circuits \& Signals \\ EECE2150} % Report title
+
+\author{Michael \textsc{Brodskiy}}
+
+\date{January 17, 2023} % Date of the report
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & January 9, 2023 \\ % Date the experiment was performed
+        Partner: & Juan \textsc{Zapata} \\ % Partner names
+		Instructor: & Professor \textsc{Sun} % Instructor/supervisor
+	\end{tabular}
+\end{center}
+
+\section{Introduction}
+
+The experiment that was undertaken concerned the analysis and physical reconstruction of basic electrical diagrams on a breadboard. The purpose of this was to familiarize ourselves with rudimentary functions of a breadboard.
+
+\section{Experimental Data}
+
+The voltage drops across each component were as follows:
+
+\begin{center}
+\begin{tabular}[h]{|c|c|}
+  \hline
+  Component & Voltage Drop [$\si{\volt}$]\\
+  \hline
+  Resistor 1 & 1.0708\\
+  \hline
+  Resistor 2 & 1.0708\\
+  \hline
+  LED 1 (Red) & 1.9511\\
+  \hline
+  LED 2 (Green) & 1.9811\\
+  \hline
+\end{tabular}
+\end{center}
+
+None of the measured voltages were negative for us; however, if we were to reverse the polarity (\textit{i.e.} switch the black and read voltmeter terminals), then the produced values would have the same magnitude but opposite sign.\\
+
+The two LEDs did \underline{not} have the same voltage drop. The red LED had a drop of $1.9511[\si{\volt}]$ and the green one had a drop of $1.9811[\si{\volt}]$\\
+
+The circuits constructed did all work on the first try; however, real-world circuits, which are significantly more complex, almost definitely do not work on the first try.
+
+\section{Constructed Circuits}
+
+\begin{multicols}{2}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.45\textwidth]{Figures/L1C1.jpg}\\
+  \caption{Circuit 1 Implementation}
+  \label{fig:1}
+\end{figure}\\
+
+\begin{figure}[H]
+  \centering
+  \include{Figures/L1C1}
+  \caption{Circuit 1 Diagram}
+  \label{fig:2}
+\end{figure}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.45\textwidth]{Figures/L1C2.jpg}
+  \caption{Circuit 2 Implementation}
+  \label{fig:3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \include{Figures/L1C2}
+  \caption{Circuit 2 Diagram}
+  \label{fig:4}
+\end{figure}
+
+\end{multicols}
+
+\section{Conclusion}
+
+Overall, breadboards seem to be a good substitute for soldering, especially when constructing the simple circuits shown above. Additionally, it is logical that the green LED would consume more volts, as green is higher on the photon energy spectrum than red, and, as such, would take more volts to power.
+
+\end{document}
