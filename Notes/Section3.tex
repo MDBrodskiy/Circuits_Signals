@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Node Voltage Method}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item Node — A point where two or more circuit elements join
+
+  \item Essential Node — A node where three or more circuit elements join
+
+  \item Path — A trace of adjoining basic elements with no elements included more than once
+
+  \item Branch — A path that connects two nodes
+
+  \item Essential Branch — A path which connects two essential nodes without passing through an essential node
+
+  \item Loop — A path whose last node is the same as the starting node
+
+  \item Mesh — A loop that does not enclose any other loops
+
+  \item Planar Circuit — A circuit that can be drawn on a plane with no crossing branches
+
+  \item The Node Voltage Method — 4 Step Process
+    
+    \begin{enumerate}
+
+      \item Find essential nodes (\#=$n$)
+
+      \item Designate a ground node
+
+      \item Write $n-1$ KCL equations, setting current flowing out of each essential node = 0 (not including the ground node)
+
+      \item Solve $n-1$ equations
+
+    \end{enumerate}
+
+\end{itemize}
+
+\end{document}
+
