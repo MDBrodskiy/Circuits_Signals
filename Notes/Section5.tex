@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Thevnin and Norton Equivalents}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item Circuit Equivalence
+
+    \begin{itemize}
+
+      \item If there are two circuits, and the same voltage, $v_a$ is applied to both, if $I_A=I_B$ then the circuits are considered equivalent
+
+      \item Same thing for same current applied and same voltage output
+
+    \end{itemize}
+
+  \item Resistor Equivalence
+
+    \begin{itemize}
+
+      \item Resistors can be connected in circuits like a delta connection
+
+      \item As well as a Y connection
+
+      \item A delta connection can be transformed into a Y connection and vice versa using transformation technique
+
+      \item This will often help in circuits
+
+    \end{itemize}
+
+    \begin{figure}[h!]
+      \centering
+      \include{Figures/DeltaY}
+      \caption{Delta and Y Circuit Configurations}
+      \label{fig:1}
+    \end{figure}
+
+  \item Transformations can be established from one to the other, as shown in Figure 1, using the following
+
+    $$\boxed{R_1=\frac{R_bR_c}{R_a+R_b+R_c},\,\,\,\,\,\,\,\,R_2=\frac{R_cR_a}{R_a+R_b+R_c},\,\,\,\,\,\,\,\,R_3=\frac{R_aR_b}{R_a+R_b+R_c}}$$
+    $$\boxed{R_a=\frac{R_1R_2+R_2R_3+R_3R_1}{R_1},\,\,\,\,\,\,\,\,R_2=\frac{R_1R_2+R_2R_3+R_3R_1}{R_2},\,\,\,\,\,\,\,\,R_c=\frac{R_1R_2+R_2R_3+R_3R_1}{R_3}}$$
+
+\end{itemize}
+
+\end{document}
+
