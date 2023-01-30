@@ -40,7 +40,7 @@
 
     \end{itemize}
 
-    \begin{figure}[h!]
+    \begin{figure}[H]
       \centering
       \include{Figures/DeltaY}
       \caption{Delta and Y Circuit Configurations}
@@ -51,6 +51,69 @@
 
     $$\boxed{R_1=\frac{R_bR_c}{R_a+R_b+R_c},\,\,\,\,\,\,\,\,R_2=\frac{R_cR_a}{R_a+R_b+R_c},\,\,\,\,\,\,\,\,R_3=\frac{R_aR_b}{R_a+R_b+R_c}}$$
     $$\boxed{R_a=\frac{R_1R_2+R_2R_3+R_3R_1}{R_1},\,\,\,\,\,\,\,\,R_2=\frac{R_1R_2+R_2R_3+R_3R_1}{R_2},\,\,\,\,\,\,\,\,R_c=\frac{R_1R_2+R_2R_3+R_3R_1}{R_3}}$$
+
+  \item A voltage source with a series resistor can be transformed into a current source with a resistor in parallel, as shown in Figure 2
+
+    \begin{figure}[H]
+      \centering
+      \include{Figures/vtoc}
+      \caption{Converting Between Voltage and Current}
+      \label{fig:2}
+    \end{figure}
+
+  \item A parallel resistor with a voltage source can be removed (replaced by an open) for transformation, as shown in Figure 3
+
+    \begin{figure}[H]
+      \centering
+      \include{Figures/Vopen}
+      \caption{Converting Voltage Sources}
+      \label{fig:3}
+    \end{figure}
+
+  \item A series resistor with a current source can be removed (replaced by a short) for transformation, as shown in Figure 4
+
+    \begin{figure}[H]
+      \centering
+      \include{Figures/Cshort}
+      \caption{Converting Current Sources}
+      \label{fig:4}
+    \end{figure}
+
+  \item Some systems may be very complex, but we may be only interested in how it behaves at two terminals
+
+    \begin{itemize}
+
+      \item Actual circuit can be converted into an equivalent circuit, called Thevnin equivalent
+
+      \item It essentially replaces the actual circuit with a voltage source with a series resistor
+
+      \item The voltage source is called the Thevnin voltage $V_{TH}$
+
+      \item The equivalent input resistance is called the Thevnin resistor $R_{TH}$
+
+    \end{itemize}
+
+  \item Thevnin Equivalence is a two-step process:
+
+    \begin{enumerate}
+
+      \item Analyze the circuit and find the open circuit voltage $v_{oc}$
+
+      \item Analyze the circuit and find the short circuit current across the terminal $i_{sc}$
+
+    \end{enumerate}
+
+    \begin{itemize}
+
+      \item Some circuits only work properly over a certain range of loads (not with $R_L=0$, for example)
+
+      \item For this type of circuit, to determine $R_{TH}$ use an acceptable $R_L$ and compute $R_{TH}$ by using the voltage divider equation shown below
+
+        $$V_{RL}=V_{TH}\frac{R_L}{R_{TH}+R_L}$$
+
+      \item Note that only the process of determining $R_{TH}$ is changed
+
+    \end{itemize}
 
 \end{itemize}
 
