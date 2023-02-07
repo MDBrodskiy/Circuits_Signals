@@ -30,6 +30,7 @@
     * [**Lab One**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab1.pdf)
     * [**Lab Two**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab2.pdf)
     * [**Lab Three**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab3.pdf)
+    * [**Lab Four**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab4.pdf)
 
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
