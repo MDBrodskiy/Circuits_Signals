@@ -32,6 +32,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{enumitem} % Required for list customization
+\usepackage{pgfplots}
 \setlist{partopsep=0pt, topsep=0pt} % Customize spacing around and inside lists
 \renewcommand{\labelenumi}{\alph{enumi}.} % Change numbering in the enumerate environment by letter rather than number
 
