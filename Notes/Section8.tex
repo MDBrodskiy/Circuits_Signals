@@ -44,9 +44,90 @@
 
       \item Mathematical Relation\footnote{If voltage is given}
 
-        $$i(t)=\frac{1}{L}\int_{t_0}^t vdt+i(t_0)$$
+        $$\boxed{i(t)=\frac{1}{L}\int_{t_0}^t vdt+i(t_0)}$$
+
+      \item Energy is given by $E=\frac{1}{2}Li^2$
 
     \end{itemize}
+
+  \item What is a capacitor?
+
+    \begin{itemize}
+
+      \item Separation of charge produces voltage which causes electric field
+
+      \item The amount of current produced by time varying electric field depends on the physical properties of dielectric materials
+
+      \item This is called capacitance
+
+    \end{itemize}
+
+  \item Mathematical Relation for Capacitors
+
+        $$\boxed{i=C\frac{dv}{dt}}$$
+
+    \begin{itemize}
+
+      \item Current is induced due to change in voltage with time
+
+      \item $C$ is the conductance and its SI unit is Farad($\si{\farad}$)
+
+      \item Notice the direction of current and voltage drop
+
+      \item If current flows in opposite direction then there will be a minus sign in the equation
+
+      \item The energy stored is $E=\frac{1}{2}cv^2$
+
+    \end{itemize}
+
+  \item Inductors in Series and Parallel
+
+    \begin{itemize}
+
+      \item For a serially connected inductor, the equivalent inductance is:
+
+        $$\boxed{L_{eq}=L_1+L_2+\cdots+L_n}$$
+
+      \item For inductors in parallel, the equivalent inductance is:
+
+        $$\boxed{\dfrac{1}{L_{eq}}=\dfrac{1}{L_1}+\dfrac{1}{L_2}+\cdots+\dfrac{1}{L_n}}$$
+
+    \end{itemize}
+
+  \item Capacitors in Series and Parallel
+
+    \begin{itemize}
+
+      \item For a serially connected capacitor, the equivalent capacitance is:
+
+        $$\boxed{\dfrac{1}{C_{eq}}=\dfrac{1}{C_1}+\dfrac{1}{C_2}+\cdots+\dfrac{1}{C_n}}$$
+
+      \item For capacitors in parallel, the equivalent capacitance is:
+
+        $$\boxed{C_{eq}=C_1+C_2+\cdots+C_n}$$
+
+    \end{itemize}
+
+  \item Summary Table
+
+    \renewcommand{\arraystretch}{2.5}
+  \begin{center}
+    \begin{tabular}[H]{| l c c c |}
+      \hline
+      Property & $R$ & $L$ & $C$\\
+      \hline
+      $i-v$ relation & $i=\dfrac{v}{R}$ & $i=\dfrac{1}{L}\displaystyle \int_{t_0}^t v\,dt + i(t_0)$ & $i=C\dfrac{dv}{dt}$\\
+      $v-i$ relation & $v=iR$ & $v=L\dfrac{di}{dt}$ & $v=\dfrac{1}{C}\displaystyle \int_{t_0}^t i\,dt+v(t_0)$\\
+      $p$ (power transfer in) & $p=i^2R$ & $p=Li\dfrac{di}{dt}$ & $p=Cv\dfrac{dv}{dt}$\\
+      $w$ (stored energy) & 0 & $w=\frac{1}{2}Li^2$ & $w=\frac{1}{2}Cv^2$\\
+      Series Combination & $R_{eq}=R_1+R_2$ & $L_{eq}=L_1+L_2$ & $\dfrac{1}{C_{eq}}=\dfrac{1}{C_1}+\dfrac{1}{C_2}$\\
+      Parallel Combination & $\dfrac{1}{R_{eq}}=\dfrac{1}{R_1}+\dfrac{1}{R_2}$ & $\dfrac{1}{L_{eq}}=\dfrac{1}{L_1}+\dfrac{1}{L_2}$ & $C_{eq}=C_1+C_2$\\
+      DC Behavior & No change & Short circuit & Open circuit \\
+      Instantaneous $v$ change? & Yes & Yes & No\\
+      Instantaneous $i$ change? & Yes & No & Yes\\
+      \hline
+    \end{tabular}
+  \end{center}
 
 \end{itemize}
 
