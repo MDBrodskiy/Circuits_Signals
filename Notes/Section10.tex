@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Steady-State Sinusoidal Analysis}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item The voltage for a sinusoid may be found using:
+
+    $$\boxed{v=V_m\cos(\omega t+\phi)}$$
+
+  \item Where $V_m$ is the average voltage, $\omega$ is the angular frequency, and $\phi$ is the phase shift angle
+
+  \item The two frequencies are:
+
+    $$f=\frac{1}{T},\,\,\,\,\,\,\,\,\,\,\text{Frequency}$$
+    $$\omega=\frac{2\pi}{T},\,\,\,\,\,\,\,\,\,\,\text{Angular Frequency}$$
+
+  \item The mean value of a periodic signal is defined as:
+
+    $$V_m=\frac{1}{T}\int_0^T v\,dt$$
+
+    \begin{center}
+      \textsc{OR}
+    \end{center}
+
+    \vspace{-15pt}
+
+    $$\boxed{V_m=\int_0^TV_m\cos(\omega t+\phi)\,dt=0}$$
+
+  \item The root mean square (rms) may be calculated as follows:
+
+    $$V_{rms}=\sqrt{\frac{1}{T}\int_0^Tv^2\,dt}$$
+
+    \begin{center}
+      \textsc{OR}
+    \end{center}
+
+    \vspace{-15pt}
+
+    $$\boxed{V_{rms}=\sqrt{\frac{1}{T}\int_0^T V_m^2\cos^2(\omega t+\phi)\,dt}=\frac{V_m}{\sqrt{2}}}$$
+
+  \item Solving for the differential equation of sinusoidal response, current becomes:
+
+    $$i=\dfrac{-V_m}{\sqrt{R^2+\omega^2L^2}}\cos(\phi-\theta)e^{-\dfrac{Rt}{L}}+\dfrac{V_m}{\sqrt{R^2+\omega^2L_^2}}\cos(\omega t+\phi-\theta)$$
+
+  \item The left term is the transient response, and the right term is the steady-state response
+
+  \item The transient will go to 0, so the steady-state term is most important
+
+  \item Frequency of the output signal is the same as the frequency of the input signal
+
+  \item Amplitude and phase changes (new phase is $\phi-\theta$)
+
+  \item The Phasor Transform
+
+    \begin{itemize}
+
+      \item The phasor transform utilizes Euler's identity to rewrite the response
+
+      \item The frequency domain becomes
+
+        $$V=P\{V_m\cos(\omega t +\phi)i\}=V_me^{j\phi}e^{j\omega t}$$
+
+      \item Where $V$ is the frequency domain
+
+      \item $V=100\angle-26^{\circ}$ is the phasor representation of $100\cos(\omega t-25)$
+
+      \item For an inverse phasor transform, multiply by $e^{j\omega t}$. The exponential becomes the term inside of the $\cos$. Convert.
+
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}
+
