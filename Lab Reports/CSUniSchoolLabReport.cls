@@ -48,6 +48,8 @@
 
 \usepackage{amsmath} % Required for some math elements 
 
+\usepackage{listings}
+
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
@@ -101,4 +103,3 @@
 \usetikzlibrary{shapes}
 \usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{float}
