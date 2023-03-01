@@ -30,6 +30,7 @@
     * [**Inductance and Capacitance**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section8.pdf)
     * [**First Order Time-Dependent Circuits**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section9.pdf)
     * [**Steady-State Sinusoidal Analysis**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section10.pdf)
+    * [**Sinusoidal Instantaneous Power**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section11.pdf)
 * [**Lab Reports**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/)
     * [**Lab One**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab1.pdf)
     * [**Lab Two**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab2.pdf)
