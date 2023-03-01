@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Sinusoidal Instantaneous Power}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item Instantaneous power is given by
+
+    $$p=iv$$
+
+  \item Where $v=V_m\cos(\omega t+\theta_v)$ and $i=I_m\cos(\omega t + \theta_i)$
+
+  \item Changing the reference time for the sinusoidal, we can create:
+
+    $$\left\{\begin{array}{c} v= V_m\cos(\omega t + \theta_v - \theta_i)\\ i=I_m\cos(\omega t)\end{array}$$
+
+  \item This makes the instantaneous power:
+
+    $$p=V_mI_m\cos(\omega t + \theta_v - \theta_i)\cos(\omega t)$$
+
+    $$p=\frac{V_mI_m}{2}\cos(\theta_v-\theta_i)+\frac{V_mI_m}{2}\cos(\theta_v-\theta_i)\cos(2\omega t)-\frac{V_mI_m}{2}\sin(\theta_v-\theta_i)\sin(2\omega t)$$
+
+  \item Or, to simplify:
+
+    $$p=P+P\cos(2\omega t)-Q\sin(2\omega t)$$
+
+  \item The average (real) power becomes $P=\frac{V_mI_m}{2}\cos(\theta_v-\theta_i)$
+
+  \item The reactive power becomes $Q=\frac{V_mI_m}{w}\sin(2\omega t)$
+
+  \item Units
+
+    \begin{itemize}
+
+      \item Instantaneous power unit is $\si{\volt\ampere}$ (Volt-Ampere)
+
+      \item The average (real) power unit is watts
+
+      \item The reactive power units is $\si{\volt\ampere}$R (Volt-Ampere Reactive)
+
+    \end{itemize}
+
+  \item Using root-mean square
+
+    $$\left\{\begin{array}{c} P=V_{rms}I_{rms}\cos(\theta_v-\theta_i)\\ Q=V_{rms}I_{rms}\sin(\theta_v-\theta_i)\end{array}$$
+
+    $$\frac{Q}{P}=\tan(\theta_v-\theta_i)$$
+
+  \item Next, we use $|S|=\sqrt{P^2+Q^2}$ and $S=P+jQ$ to define a phasor transform
+
+    $$S=V_{rms}I_{rms}\angle{(\theta_v-\theta_i)}$$
+
+  \item In Euler notation:
+
+    $$\frac{V_mI_m}{2}e^{j(\theta_v-\theta_i)}$$
+
+\end{itemize}
+
+\end{document}
+
