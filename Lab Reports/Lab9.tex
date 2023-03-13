@@ -1,0 +1,78 @@
+\documentclass[
+	letterpaper, % Paper size, specify a4paper (A4) or letterpaper (US letter)
+	10pt, % Default font size, specify 10pt, 11pt or 12pt
+]{CSUniSchoolLabReport}
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Introduction to RC Circuits \\ Circuits \& Signals \\ EECE2150} % Report title
+
+\author{Michael \textsc{Brodskiy}}
+
+\date{March 12, 2023} % Date of the report
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & March 2, 2023 \\ % Date the experiment was performed
+        Partner: & Juan \textsc{Zapata} \\ % Partner names
+		Instructor: & Professor \textsc{Sun} % Instructor/supervisor
+	\end{tabular}
+\end{center}
+
+\setcounter{section}{-1}
+
+\section{Introduction}
+
+The purpose of this laboratory experimentation is to familiarize oneself with circuits involving resistors, capacitors, and an operational amplifier. A circuit with a resistor, capacitor, and alternating current function generator are constructed to observe RC circuits behaving under alternating current.
+
+\subsection{Which Frequency to Use} According to RC circuit rules, the best frequency to use would be $RC=20000(.1\cdot10^{-6})=2\cdot10^{-3}[\si{\second}]\rightarrow\frac{1}{10\cdot2\cdot10^{-3}}=50[\si{\hertz}]$
+
+  \section{Part I}
+
+  \subsection{Q1} From the waveform, $\tau$ would be:
+
+  $$V(t)=V_oe^{-\dfrac{t}{\tau}}\rightarrow\tau=\frac{1.45}{\ln(1.94375)}=2.18[\si{\milli\second}]$$
+
+  The value of $2.18[\si{\milli\second}]$ is close to the above value of $2[\si{\milli\second}]$
+
+  \section{Part 2}
+
+  \subsection{Q2} The magnitude of the signal generator is $2[\si{\volt}]$, with a cap of $1.3625[\si{\volt}]$
+
+  \subsection{Q3} The following formula was used to convert between magnitude and phase:
+
+  $$\frac{2\pi}{t_1}=\frac{x}{t_2}$$
+
+  Where $t_1$ is the period for a full cycle, $t_2$ is the period for the newly-generated waveform, and $x$ is the phase. As an example, for $50[\si{\hertz}]$, the value was obtained as follows:
+
+  $$\frac{2\pi}{12.5}=\frac{x}{1.7}\rightarrowx=.272\pi[\text{rad}]$$
+
+  \begin{center}
+    \begin{tabular}[h!]{l c r}
+      Frequency ($\si{\hertz}$) & $\Delta$ Magnitude ($\si{\volt}$)& $\Delta$ Phase ($\pi$-rad)\\
+      \hline
+      .1 & 2.125 & .02\\
+      1 & 2.125 & .02\\
+      10 & 2.3 & .04\\
+      100 & 1.15 & .318\\
+      1000 & .16625 & .47\\
+      10000 & .0305 & 5\\
+    \end{tabular}
+  \end{center}
+
+  \subsection{Q4} As frequency is increased, the change in magnitude decreases, and the change in phase increases, and vice versa.
+
+\section{Conclusion}
+
+Overall, this laboratory experiment introduced us to the concept of RC circuits with alternating current. In such a manner, real-world examples were tested with theoretical formula applications.
+
+\end{document}
