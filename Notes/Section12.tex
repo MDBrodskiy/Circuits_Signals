@@ -30,7 +30,52 @@
 
     \begin{itemize}
 
+      \item The Fourier series representation of a periodic signal is:
+
+        $$\boxed{f(t)=a_0+\sum_{n=1}^{\infty} a_n\cos(n\omega_0t)+b_n\sin(n\omega_0t)}$$
+
+      \item The coefficients may be determined in the following manner:
+
+        $$a_0=\frac{1}{T}\int_0^T f(t)\,dt$$
+
+        $$a_k=\frac{2}{T}\int_0^T f(t)\cos(k\omega_0t)\,dt$$
+
+        $$b_k=\frac{2}{T}\int_0^T f(t)\sin(k\omega_0t)\,dt$$
+
+        \begin{itemize}
+
+          \item Even though the indicated limits of integration are from 0 to $T$, the expressions are equally valid if the lower limit is changed to $t_0$ and the upper limit to $(t_0+T)$ for any value of $t_0$; in some cases, the evaluation is easier to perform by integrating from $-\dfrac{T}{2}$ to $\dfrac{T}{2}$
+
+          \item For an even function $(f(t)=f(-t))$:
+
+            $$a_0=\frac{2}{T}\int_0^{\frac{T}{2}}f(t)\,dt$$
+
+            $$a_k=\frac{4}{T}\int_0^{\frac{T}{2}}f(t)\cos(k\omega_0t)\,dt$$
+
+            $$b_k=0$$
+
+          \item For an odd function $(f(t)=-f(-t))$:
+
+            $$a_0=0$$
+
+            $$a_k=0$$
+
+            $$b_k=\frac{4}{T}\int_0^{\frac{T}{2}}f(t)\sin(k\omega_0t)\,dt$$
+
+        \end{itemize}
+
     \end{itemize}
+
+  \item Some common Fourier transforms are:
+
+  \begin{center}
+    \begin{figure}[h!]
+      \centering
+      \includegraphics[width=.65\textwidth]{Figures/FT.png}
+      \caption{Common Fourier Transform Table}
+      \label{fig:1}
+    \end{figure}
+  \end{center}
 
 \end{itemize}
 
