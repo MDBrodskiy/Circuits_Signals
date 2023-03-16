@@ -1,0 +1,33 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Fourier Transform}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item The series can be represented as a sum of sinusoidal signals:
+
+    $$f(t)=\sum_{-\infty}^{\infty} C_ne^{jn\omega_0t},\quad\quad\quad C_n=\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}} f(t)e^{-jn\omega_0 t}\,dt$$
+
+  \item As $T\to\infty$, $\dfrac{1}{T}\to\dfrac{d\omega}{2\pi}$
+
+  \item The Fourier transform is written as:
+
+    $$F(\omega)=\mathcal{F}\{f(t)\}=\int_{-\infty}^{\infty}f(t)e^{-j\omega t}\,dt$$
+
+
+\end{itemize}
+
+\end{document}
+
