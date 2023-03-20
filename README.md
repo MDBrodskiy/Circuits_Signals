@@ -43,6 +43,7 @@
     * [**Lab Seven**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab7.pdf)
     * [**Lab Eight**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab8.pdf)
     * [**Lab Nine**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab9.pdf)
+    * [**Lab Ten**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab10.pdf)
 
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
