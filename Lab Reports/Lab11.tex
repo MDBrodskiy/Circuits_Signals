@@ -1,0 +1,83 @@
+\documentclass[
+	letterpaper, % Paper size, specify a4paper (A4) or letterpaper (US letter)
+	10pt, % Default font size, specify 10pt, 11pt or 12pt
+]{CSUniSchoolLabReport}
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Operational Amplifier Circuits, Design, and Limitations \\ Circuits \& Signals \\ EECE2150} % Report title
+
+\author{Michael \textsc{Brodskiy}}
+
+\date{March 23, 2023} % Date of the report
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & March 15, 2023 \\ % Date the experiment was performed
+        Partner: & Juan \textsc{Zapata} \\ % Partner names
+		Instructor: & Professor \textsc{Sun} % Instructor/supervisor
+	\end{tabular}
+\end{center}
+
+\setcounter{section}{-1}
+
+\section{Introduction}
+
+The purpose of this laboratory experimentation is to advance our knowledge of operational amplifiers and their abilities. By applying concepts of the transfer function and fast Fourier transforms, we were able to more thoroughly analyze operational amplifier response.
+
+  \section{Part I}
+
+  \subsection{Q1} The calculations resulted in the following:
+
+  \vspace{5pt}
+
+  \begin{itemize}
+
+    \item The theoretical in-band gain ($|H(\omega)|$): $\dfrac{R_f}{\sqrt{R_s^2 + \dfrac{1}{(\omega C_s)^2}}}=\dfrac{200000}{\sqrt{10^{10}+\dfrac{10^{16}}{\omega^2}}}$
+
+    \item The time constant ($\tau$): $\tau=R_sC_s=(100\cdot10^3)(10\cdot10^{-9})=1[\si{\milli\second}]$
+
+    \item The cutoff angular frequency ($\omega_c$): $\omega_c=\dfrac{1}{\tau}=\frac{1}{.001}=1000\left[ \dfrac{\text{rad}}{\si{\second}} \right]$
+
+    \item The cutoff frequency ($f_c$): $\dfrac{\omega_c}{2\pi}=159.155[\si{\hertz}]$
+
+  \end{itemize}
+
+  \subsection{Q2} The measured gain is $\dfrac{1.11}{.45}=2.467$
+
+  \subsection{Q3} The cutoff frequency does not agree with the theoretical value (it becomes $86[\si{\hertz}]$ instead of 159$[\si{\hertz}]$)
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=.9\textwidth]{Figures/L11Osc.png}
+    \caption{Oscilloscope Reading of Input and Output}
+    \label{fig:1}
+  \end{figure}
+
+  \subsection{Q4} That statement is incorrect — The gain increases with higher frequencies.
+
+  \subsection{Q5} The input is square, while the output is like a combined exponential. The output wave looks as it does because, when the square wave is positive or negative, the capacitor is charging. In between, the capacitor voltage jumps to infinity as it shifts.
+
+  \begin{figure}[h!]
+    \centering
+    \include{Figures/L11Osc}
+    \caption{Input Wave (Top) and Output Wave (Bottom) Approximation}
+    \label{fig:2}
+  \end{figure}
+
+  \subsection{Q6} As the frequency increases, the capacitor is unable to discharge quick enough, so the output begins to look more and more like a square wave.
+
+\section{Conclusion}
+
+Overall, this laboratory experiment introduced us to the concept of physical active filters through transform and Fourier analysis. Furthermore, this time the operational amplifier was a real-world circuit component, making it easier to grasp the concept.
+
+\end{document}
