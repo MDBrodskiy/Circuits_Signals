@@ -33,6 +33,7 @@
     * [**Sinusoidal Instantaneous Power**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section11.pdf)
     * [**Fourier Series**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section12.pdf)
     * [**Fourier Transforms**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section13.pdf)
+    * [**Biopotentials**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section14.pdf)
 * [**Lab Reports**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/)
     * [**Lab One**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab1.pdf)
     * [**Lab Two**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab2.pdf)
