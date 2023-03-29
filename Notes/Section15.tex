@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Circuits & Signals: Biomedical Applications
+% Professor: N. Sun
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Sampling, Analog-to-Digital, and Digital Filters}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: N. Sun}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+
+  \item Sampling
+
+    \begin{itemize}
+
+      \item To be able to process the analog signal with digital computers, we need to digitize the analog signal
+
+      \item It introduces noise due to quantization
+
+      \item Sampling rate is the rate at which samples are taken (in Hertz)
+
+    \end{itemize}
+
+  \item The Nyquist Theorem
+
+    \begin{itemize}
+
+      \item States that in order to adequately reproduce a signal, it should be periodically sampled at a rate that is two times the highest frequency you wish to record
+
+    \end{itemize}
+
+  \item Analog Filtering
+
+    \begin{itemize}
+
+      \item Typically designed for frequency selectivity
+
+      \item Typically using circuits and circuit devices
+
+      \item ``Real-time'' and fast
+
+      \item Filter settings can be hard to change
+
+      \item Filtering necessary before A/D
+
+    \end{itemize}
+
+  \item Digital Filter Design
+
+    \begin{itemize}
+
+      \item Two Common Approaches
+
+        \begin{itemize}
+
+          \item Approximate analog filters directly
+
+        \end{itemize}
+
+    \end{itemize}
+
+  \item Trade-offs
+
+    \begin{itemize}
+
+      \item Design from analog generally much lower order for same specifications
+
+      \item Design from digital allows control over phase behavior, greater flexibility in frequency response, and tolerance specifications
+
+      \item Design from digital can be more stable in finite precision
+
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}
+
