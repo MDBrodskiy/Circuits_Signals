@@ -1,0 +1,63 @@
+\documentclass[
+	letterpaper, % Paper size, specify a4paper (A4) or letterpaper (US letter)
+	10pt, % Default font size, specify 10pt, 11pt or 12pt
+]{CSUniSchoolLabReport}
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{The Instrumentation Amplifier\\ Circuits \& Signals \\ EECE2150} % Report title
+
+\author{Michael \textsc{Brodskiy}}
+
+\date{April 20, 2023} % Date of the report
+
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\maketitle % Insert the title, author and date using the information specified above
+
+\begin{center}
+	\begin{tabular}{l r}
+		Date Performed: & March 30, 2023 \\ % Date the experiment was performed
+        Partner: & Juan \textsc{Zapata}, Oluwalaanu \textsc{Adeboye} \\ % Partner names
+		Instructor: & Professor \textsc{Sun} % Instructor/supervisor
+	\end{tabular}
+\end{center}
+
+\setcounter{section}{-1}
+
+\section{Introduction}
+
+The purpose of this laboratory experimentation was to familiarize oneself with instrumentation amplifiers by constructing a preliminary circuit, meant to be used in the coming experiments.
+
+\section{Discussion and Analysis}
+
+\subsection{Part 1}
+
+\subsubsection{Q1} The capacitors are most likely integrated into the circuit to stabilize the voltage fed into the amplifier after it is active for some time.
+
+\subsubsection{Q2} According to the specification sheet, the $R_g$ value may be calculated using the formula:
+
+$$R_g=\frac{200000}{\text{gain}-5}$$
+
+This means for a gain of $20$, we need a $10[\si{\kilo\ohm}]$ resistor.
+
+\subsection{Part 2}
+
+\subsubsection{Q3} The frequency at the center of an ECG signal is approximately $75[\si{\hertz}]$.
+
+\subsubsection{Q4} The gain is actually measured as 25; $.707\cdot25=17.675\rightarrow$ The cutoff frequency is approximately $10[\si{\kilo\hertz}]$, which is consistent with the specification sheet, which states that it should be between 3 and 80.
+
+\subsubsection{Q5} The gain is actually measured as slightly less than 100; $.707\cdot100=70.7\rightarrow$ The cutoff is approximately $3.37[\si{\kilo\hertz}]$, which is consistent with the specification sheet, which states that it should be approximately 3.
+
+\subsubsection{Q6} $G_c=\frac{.1\cdot5}{260}=1.923\cdot10^{-3}$; $G_d=100\Rightarrow 20\log_{10}\left( \frac{100}{1.923\cdot10^{-3}} \right)=94.32$; The CMRR is thus measured as 94.32; according to the specification sheet, it should be at least $77[\text{dB}]$
+
+\section{Conclusion}
+
+Overall, this laboratory experiment allowed two important outcomes: first, a circuit for the next electrocardiogram lab is already construct, and, second, we are now more familiar with the AD627 instrumentation amplifier. Thus, the lab served as an important starting point to construct an ECG.
+
+\end{document}
