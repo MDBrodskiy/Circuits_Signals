@@ -1,5 +1,4 @@
-<!-- PROJECT LOGO -->
-<br />
+<!-- PROJECT LOGO --> <br />
 <p align="left">
   <a href="https://github.com/MDBrodskiy/Circuits_Signals/tree/master/LICENSE">
     <img src="images/LicenseImage.svg" alt="license" width="100" height="24"></a>
@@ -48,6 +47,8 @@
     * [**Lab Ten**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab10.pdf)
     * [**Lab Eleven**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab11.pdf)
     * [**Lab Twelve**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab12.pdf)
+    * [**Lab Thirteen**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab13.pdf)
+    * [**Lab Fourteen**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab14.pdf)
 
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
