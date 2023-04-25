@@ -34,6 +34,7 @@
     * [**Fourier Transforms**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section13.pdf)
     * [**Biopotentials**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section14.pdf)
     * [**Filters**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/Section15.pdf)
+    * [**Final Exam Equation Sheet**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Notes/FinalEquationSheet.pdf)
 * [**Lab Reports**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/)
     * [**Lab One**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab1.pdf)
     * [**Lab Two**](https://github.com/MDBrodskiy/Circuits_Signals/tree/master/Lab%20Reports/Lab2.pdf)
